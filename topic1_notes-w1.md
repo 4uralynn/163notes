@@ -126,3 +126,73 @@ Questions to ask yourself:
    - if yes, plan out what to do
 8. Make sure you return the correct information.
 
+## Creating an ADT   (the *todo_list* example)
+
+| Todo Item |
+:--------:
+| name |
+|priority
+|doneflag
+**Todo *list (LLL)***
+1. **Keep track** of the things I need to accomplish.
+2. **Save** the item's name and priority, and if it's been completed.
+3. Underlying data **could be either a *struct* or a *class***
+	- *We will be starting with a struct in this example*
+
+|**List of Items** |_|_|_| 
+|------------|-------------|-------------|--------------------|
+| *create* | *destroy* | *insert*  | *display_main* |
+| *display_all* | *remove_match* | *find* | *is_complete?* | 
+ 
+ Our job is to write code to manage the data structure, while another part of our "team" is writing the client / application.
+ **Coding example from class:**
+```
+#include <iostream>
+#include <cstring>
+#include <cctype>
+
+//Name and the purpose of the file
+//Comments should focus in a .h file on what the client program
+//is going to need to know:  HOW are they going to USE
+//this software
+//client program <= Application, test program
+//
+//This is the class that is a managing a list of todo items
+//The client can add new items, display items by choice
+//remove matching items, and indicate if an item is done, so it can
+//be checked off. This is representing an Abstract Data Type (ADT)
+
+struct todo
+{
+        char * name;
+        int priority;
+        bool done;
+
+};
+
+struct node
+{
+        todo item;      //only reason to make the item a pointer: 1.array of items,  2. share member
+        node * link;
+};                      //separating out the data from the thing manaing the data
+                        //so there is no
+                        //
+class todo_list
+{
+        public:
+                todo_list();
+                ~todo_list();
+                ____insert(const todo & to_add);  //take the info from the argument and make a
+                                                        //copy and store it in my data struct
+                                                        //reutrn1 if the insert was successful
+                                                        //0 otherwaise (to_add data had no data in it)
+                //const after: is a "constant member function" - it means the member function
+                //doesn't modify the data members (even if passed by reference)
+                int display_match(const int match_priority) const; //reurn 0 if there are no matches
+                int display_all() const; //fail itf there are no items in the list
+                int remove_match(int match_priority);
+                int finished_item(char name_of_finished_item[]);
+        private:
+                node * head;
+				node * tail;
+};
