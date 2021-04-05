@@ -194,5 +194,5 @@ class todo_list
                 int finished_item(char name_of_finished_item[]);
         private:
                 node * head;
-				node * tail;
+		node * tail;
 };
