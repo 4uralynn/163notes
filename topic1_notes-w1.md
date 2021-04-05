@@ -9,10 +9,10 @@ Programing Paradigms/Methodologies
   - reduce size and complexity of programs
 + Object Oriented Programming (202)
 
-Data Structures
+Data Structures *(goals for the term)*
 ---------------
-+ The goal for this term is to spend our time talking about different data structures,
-  algorithms to solve problems, and how to measure the efficiency of the approaches taken
++ Spend time talking about different data structures and algorithms to solve problems, and 
+  how to measure the efficiency of the approaches taken
 + NOT about learning new C++ syntax this term
 + APPLICATION of C++ and linear linked lists to new Abstract Data Types
 
