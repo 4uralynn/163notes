@@ -1,4 +1,4 @@
-# 163notes
+# CS163 Notes
 *Notes for CS163 at Portland State University*
 
 ***Hello World*** of PSU! This is a pretty simple repository. I've decided to learn several things at once with the CS163 Data Structures course: 
