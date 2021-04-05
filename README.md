@@ -2,7 +2,7 @@
 *Notes for CS163 at Portland State University*
 
 ***Hello World*** of PSU! This is a pretty simple repository. I've decided to learn several things at once with the CS163 Data Structures course: 
-1. *Data Structures*, first of all.
+1. *Data Structures*, first of all. I've always found that taking notes helps me to focus and retain information during videos and lectures.
 2. *Markdown*, which is a very simple "language" if you can call it that, like basic LaTeX (which I am trying to learn in CS250 as part of the normal assignments), or even HTML. It is great for taking and sharing notes. Vim will work with it as well, at least in displaying very basic formatting.
 3. *Github!* Apart from my lackluster public readme, this is my first Github repository, and I want to begin familiarizing myeself more with git and Github.
 
