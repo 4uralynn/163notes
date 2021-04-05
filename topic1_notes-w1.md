@@ -1,4 +1,4 @@
-CS163 Topic 1 - ADTs - Abstract Data Types
+CS163 Topic 1 - ADTs - Abstract Data Types - *Week 1*
 ==========================================
 	
 Programing Paradigms/Methodologies
