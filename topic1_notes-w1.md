@@ -133,6 +133,7 @@ Questions to ask yourself:
 | name |
 |priority
 |doneflag
+
 **Todo *list (LLL)***
 1. **Keep track** of the things I need to accomplish.
 2. **Save** the item's name and priority, and if it's been completed.
