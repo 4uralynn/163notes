@@ -114,9 +114,9 @@ Defining the List Class
 + in this class, other function names will be provided, but *you* must create arguments
 + ***NEVER*** pass a `stuct` by value.
 + The `const` keyword in the argument prevents the client from changing memory of the argument passed by reference (only copy from)
-   - `int insert(const student &)`
+   - `int insert(const student & new);`
 + Ouside the argument, `const` means the member function can copy, but not change the private data members of the class
-   - `int display() const;`
+   - `int display(void) const;`
 + return member functions as `int` or `bool`
 + **Public functions** should not use a get_head function!!!
 + cannot return `struct`, *always* pass `struct` by reference
