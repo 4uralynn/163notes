@@ -134,7 +134,7 @@ class list {
 *Perfect* your comments
 
 |                  .cpp                 |                           .h                          |                       .cpp                     |
-:---------------------------------------|-------------------------------------------------------|------------------------------------------------:
+:------------------------------------------------------------------------------------------------------------------------------------------------:
 | **main / application / test program** | **class interface**                                   |       **implementation of member functions**   |
 | *Comments*                            | *Comments*                                            |                    *Comments*                  |
 | How does it fully meet the test plan? | Why you would want to use the data type?              |                    Algorithm                   |
