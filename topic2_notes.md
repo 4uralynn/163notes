@@ -130,11 +130,11 @@ class list {
 		int remove (char * input);
 //...
 ```
-###### Comments ######
+#### Comments ####
 *Perfect* your comments
 
 |                  .cpp                 |                           .h                          |                       .cpp                     |
-|---------------------------------------:-------------------------------------------------------:------------------------------------------------|
+|---------------------------------------|-------------------------------------------------------|------------------------------------------------|
 | **main / application / test program** | **class interface**                                   |       **implementation of member functions**   |
 | *Comments*                            | *Comments*                                            |                    *Comments*                  |
 | How does it fully meet the test plan? | Why you would want to use the data type?              |                    Algorithm                   |
@@ -149,7 +149,7 @@ class list {
 
 
 
-### Exception Handling [1]
+### [Exception Handling][1]
 Not something we will be doing in CS163
 + Will be tackled later in CS202
 + Can choose to work with it, but not required or officially part of the course
@@ -161,6 +161,6 @@ Not something we will be doing in CS163
 2. The client should have no knowledge of the data structure.
 
 ###### Links
-[1][https://www.cs.pdx.edu/~karlaf]
+[1]: https://www.cs.pdx.edu/~karlaf "Karla Fant's PSU Website"
 
 
