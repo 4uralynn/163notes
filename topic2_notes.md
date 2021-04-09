@@ -89,7 +89,7 @@ class list {
 *Avoid nesting as it is the reason for `namespace` (will discuss in CS202)*
 
 **Struct vs Class**
-If a class has been used, the members would have been private by default, requiring the list class to be declared as a frien
+If a class has been used, the members would have been private by default, requiring the list class to be declared as a `friend`
 
 ```
 class student {
