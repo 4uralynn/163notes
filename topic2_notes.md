@@ -134,7 +134,7 @@ class list {
 *Perfect* your comments
 
 |                  .cpp                 |                           .h                          |                       .cpp                     |
-|---------------------------------------:-------------------------------------------------------:------------------------------------------------|
+:---------------------------------------|-------------------------------------------------------|------------------------------------------------:
 | **main / application / test program** | **class interface**                                   |       **implementation of member functions**   |
 | *Comments*                            | *Comments*                                            |                    *Comments*                  |
 | How does it fully meet the test plan? | Why you would want to use the data type?              |                    Algorithm                   |
@@ -160,7 +160,6 @@ Not something we will be doing in CS163
 1. Structs or classes may be used for underlying data
 2. The client should have no knowledge of the data structure.
 
-###### Links
 [1]: https://www.cs.pdx.edu/~karlaf "Karla Fant's PSU Website"
 
 
