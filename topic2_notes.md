@@ -133,13 +133,13 @@ class list {
 #### Comments ####
 *Perfect* your comments
 
-|                  .cpp                 |                           .h                          |                       .cpp                     |
-|---------------------------------------|-------------------------------------------------------|------------------------------------------------|
-| **main / application / test program** | **class interface**                                   |       **implementation of member functions**   |
-| *Comments*                            | *Comments*                                            |                    *Comments*                  |
-| How does it fully meet the test plan? | Why you would want to use the data type?              |                    Algorithm                   |
-|                                       | How to call the functions: *arguments, data returned* |   How you are working with the data structure  |
-|                                       | Aimed at application programmer                       | Aimed at a programmer maintaining the software |
+|                  .cpp                   |                           .h                            |                       .cpp                       |
+|-----------------------------------------|---------------------------------------------------------|--------------------------------------------------|
+|   Main / Application / Test Program     |     Class Interface                                     |           Implementation of Member Functions     |
+|   ***Comments***                        |       ***Comments***                                    |                    ***Comments***                |
+| *How does it fully meet the test plan?* | *Why you would want to use the data type?*              |                    *Algorithm*                   |
+|                                         |  *How to call the functions: *arguments, data returned* |   *How you are working with the data structure*  |
+|                                         | *Aimed at application programmer*                       | *Aimed at a programmer maintaining the software* |
 
 
 
