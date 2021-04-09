@@ -13,7 +13,7 @@ Topic 2: Creating ADT  - Part 1
 List Abstraction
 ----------------
 
-**Let's begin** by building a "list" abstraction
+Building a "list" abstraction
 + *Remember* the data structure used should be able to 'plug and play' (i.e. be replaced without effecting the client program.)
 + Operations will include:
   - insert, remove, retrieve, and display
