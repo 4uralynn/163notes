@@ -99,7 +99,7 @@ class student {
 		friend class list;
 };
 ```
-*Do not do in this class*
++ *Do not do in this class*
 
 Defining the List Class
 -----------------------
