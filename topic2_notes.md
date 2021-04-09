@@ -37,7 +37,8 @@ struct student {
 	float grade;
 };
 ```
-**Options for placement of stuct:**
+##### Options for placement of stuct:
+
 Before the class in the header file *(recommended)*
 ```
 struct student {
