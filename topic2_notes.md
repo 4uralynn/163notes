@@ -38,7 +38,7 @@ struct student {
 };
 ```
 **Options for placement of stuct:**
-+ Before the class in the header file *(recommended)*
+Before the class in the header file *(recommended)*
 ```
 struct student {
 	//data members
@@ -49,11 +49,10 @@ class list {
 		//...
 ```
 
-*Allows interaction of the client and member function.*
-Non-node data members should be **objects**, not **pointers**, in (CS163) unless an array (dynamically allocated or sharing memory) 
++ *Allows interaction of the client and member function.*
++ Non-node data members should be **objects**, not **pointers**, in (CS163) unless an array (dynamically allocated or sharing memory) 
 
-+ In the implementation *(hidden; used in C)*
-
+In the implementation *(hidden; used in C)*
 *In* `.h` *file, create an 'incomplete declaration'*
 
 ```
@@ -69,10 +68,10 @@ struct student {
 	float grade;
 };
 ```
-*This is mostly done in the C programming language*
++ *This is mostly done in the C programming language*
 
 
-+ Nested within class *(old school and not reccommended)*
+Nested within class *(old school and not reccommended)*
 
 ```
 class list {
@@ -86,7 +85,7 @@ class list {
 		};
 };
 ```
-*Avoid nesting as it is the reason for `namespace` (will discuss in CS202)*
++ *Avoid nesting as it is the reason for `namespace` (will discuss in CS202)*
 
 **Struct vs Class**
 If a class has been used, the members would have been private by default, requiring the list class to be declared as a `friend`
