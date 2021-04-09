@@ -134,7 +134,7 @@ class list {
 *Perfect* your comments
 
 |                  .cpp                 |                           .h                          |                       .cpp                     |
-|---------------------------------------|-------------------------------------------------------|------------------------------------------------|
+|---------------------------------------:-------------------------------------------------------:------------------------------------------------|
 | **main / application / test program** | **class interface**                                   |       **implementation of member functions**   |
 | *Comments*                            | *Comments*                                            |                    *Comments*                  |
 | How does it fully meet the test plan? | Why you would want to use the data type?              |                    Algorithm                   |
@@ -149,7 +149,7 @@ class list {
 
 
 
-### [Exception Handling][1]
+### Exception Handling - [(link)][1]
 Not something we will be doing in CS163
 + Will be tackled later in CS202
 + Can choose to work with it, but not required or officially part of the course
