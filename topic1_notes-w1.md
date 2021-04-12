@@ -147,7 +147,7 @@ Questions to ask yourself:
  
  Our job is to write code to manage the data structure, while another part of our "team" is writing the client / application.
  **Coding example from class:**
-```
+```c++
 #include <iostream>
 #include <cstring>
 #include <cctype>
