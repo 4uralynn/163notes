@@ -30,7 +30,7 @@ The list can be implemented using a variety of data structures:
 + *circular* linked list **[*NEW* concept]**
 + *doubly* linked list **[*NEW* concept]**
 
-```
+```c++
 struct student {
 	char * name;
 	char * psu_id;
@@ -40,7 +40,7 @@ struct student {
 #### Options for placement of stuct:
 
 Before the class in the header file *(recommended)*
-```
+```c++
 struct student {
 	//data members
 };
@@ -56,7 +56,7 @@ class list {
 In the implementation *(hidden; used in C)*
 *In* `.h` *file, create an 'incomplete declaration'*
 
-```
+```c++
 struct student;
 class list {
 	public:
@@ -74,7 +74,7 @@ struct student {
 
 Nested within class *(old school and not reccommended)*
 
-```
+```c++
 class list {
 	public:
 		//member functions
@@ -91,7 +91,7 @@ class list {
 #### Struct vs Class
 If a class has been used, the members would have been private by default, requiring the list class to be declared as a `friend`
 
-```
+```c++
 class student {
  	//public members
 	private:
@@ -122,7 +122,7 @@ Defining the List Class
 + cannot return `struct`, *always* pass `struct` by reference
 
 ***Example of class interfacei (with typical member functions):***
-```
+```c++
 class list {
 	public:
 		list();
