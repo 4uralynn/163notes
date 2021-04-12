@@ -89,9 +89,9 @@ struct node
 };
 ```
 
-To determine how far to traverse you can use `(data_position - 1) / array_size)`. And to tell which index in the array, use 
+To determine how far to traverse you can use `(data_position - 1) / array_size)`. 
 
-`(data_position - 1) % array_size`.
+And to tell which index in the array, use `(data_position - 1) % array_size`.
 ___
 **EXAMPLE**
 
