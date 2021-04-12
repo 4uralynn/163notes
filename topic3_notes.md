@@ -89,13 +89,15 @@ struct node
 };
 ```
 
-To determine how far to traverse you can use `(data_position - 1) / array_size)`. And to tell which index in the array, use `(data_position - 1) % array_size`.
+To determine how far to traverse you can use `(data_position - 1) / array_size)`. And to tell which index in the array, use 
+`(data_position - 1) % array_size`.
 ___
 **EXAMPLE**
 
-To understand the previous paragraph, image a flexible linked list with 3 nodes--like the on above--and each array has 1000 data spaces.
+To understand the previous paragraph, imagine a flexible linked list with 3 nodes--like the one above--and each array has 1000 data spaces.
 
-If you wanted to get to the 1,032<sup>nd</sup> data position, `(1032 - 1) / 1000` would return the value `1`. So we would traverse 1 node. Then, `(1032 - 1) % 1000` would reurn the value `30`, so we would go to index `30`, `array2[30]`.
+If you wanted to get to the 1,032<sup>nd</sup> data position, `(1032 - 1) / 1000` would return the value `1`. So we would traverse 1 node. 
+Then, `(1032 - 1) % 1000` would reurn the value `30`, so we would go to index `30`, `array2[30]`.
 ___
 
 ## The *Alternative* Relative Ordered List
