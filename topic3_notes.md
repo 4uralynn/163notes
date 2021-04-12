@@ -74,6 +74,7 @@ The only **negative issue** with a relative linear linked list:
 ## The *Alternative* Absolute Ordered List
 
 **The *Flexible* Array**
+*A linear linked list with an array at each node.*
 ```
 [ ]-> [ ]]-> [ ]]-> [ ]/]
        v      v      v
