@@ -1,12 +1,13 @@
 # CS163 Notes
 *Notes for CS163 at Portland State University*
 
-***Hello World*** of PSU! This is a pretty simple repository. I've decided to learn/practice several things at once with the CS163 Data Structures course: 
+***Hello World*** of Data Structures! This is a pretty simple repository. I've decided to learn/practice several things at once with the CS163 Data Structures course: 
 1. *Data Structures*, first of all. I've always found that taking notes helps me to focus and retain information during videos and lectures.
-2. *Markdown*, which is a very simple "language" if you can call it that, like basic LaTeX (which I am trying to learn in CS250 as part of the normal assignments), or even HTML. It is great for taking and sharing notes. Vim will work with it as well, at least in displaying very basic formatting.
+2. *Markdown*, which use a very simple "code", if you can call it that. It is great for taking and sharing notes. Vim will work with it as well, at least in displaying very basic formatting.
 3. *Github!* Apart from my lackluster public readme, this is my first Github repository, and I want to begin familiarizing myeself more with git and Github.
 
-**So that's it!** Fairly simple objectives, and I will be posting my notes in CS163 here as part of these goals. Feel free to use them if you've been granted access. You could use them for the class, and/or to begin getting used to markdown files and Github yourself. The nice thing is that you can upload these notes to your PSU account and they will format fairly well on Vim, and you can add to them easily. I haven't looked at them on Nano, but if it works on Nano as well, feel free to let me know!
+**So that's it!** Fairly simple objectives, and I will be posting my notes from CS163 here as part of these goals. Feel free to use them. You could use them for the class, and/or probably to begin getting used to markdown files and Github yourself. The nice thing is that I believe you may be able to upload these notes to your PSU account and they will format fairly well on Vim `cd [location] && git clone https://github.com/auralynn/163notes.git`, and you can add to them easily.
+
 ```
 - 4ura
 ```
