@@ -7,6 +7,7 @@
 3. *Github!* Apart from my lackluster public readme, this is my first Github repository, and I want to begin familiarizing myeself more with git and Github.
 
 **So that's it!** Fairly simple objectives, and I will be posting my notes from CS163 here as part of these goals. Feel free to use them. You could use them for the class, and/or probably to begin getting used to markdown files and Github yourself. The nice thing is that I believe you may be able to upload these notes to your PSU account and they will format fairly well on Vim, via 
+
 `cd [location] && git clone https://github.com/auralynn/163notes.git`, and you can add to them easily.
 
 ```
