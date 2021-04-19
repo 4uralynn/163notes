@@ -250,7 +250,7 @@ dequeue(dtattype & arg_name)
 }
 ```
 ___
-NOTE ON RUNTIME PERFORMANCE:
+**NOTE ON RUNTIME PERFORMANCE:**
 
 The array is the less efficient choice in queues, as pointer arithmetic creates more overhead
 
