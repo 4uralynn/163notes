@@ -1,10 +1,8 @@
 Topic 5: Other Linked Lists
 ===========================
-Part 1
-------
 
 **Learning Goals:**
-+ algoriths to manage circular and doubly linked lists
++ algorithms to manage circular and doubly linked lists
 + Dummy head nodes: Advantages and disadvantages
 + arrays of linked lists, or linked lists of arrays
 + Benefits/Drawback considerations of doubly "threaded" list
