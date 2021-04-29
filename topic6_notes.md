@@ -11,6 +11,7 @@ Topic 6: Hash Tables
 ___
 
 **MAIN FOCUS**
+
 *Arrays of Linear Linked Lists*
 ___
 
