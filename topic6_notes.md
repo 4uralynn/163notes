@@ -32,7 +32,7 @@ BASIC OPERATIONS FOR TABLE ADTs:
   - Retrieve an item from a table: `Retrieve(Table, Key, Returneddata`
     * **NOT** Display
 
-###Table ADT Efficiency
+### Table ADT Efficiency
 
 |    *Type*          |                         Add                       |                Remove               |        Search             |            Display (Retrieval)         |
 |--------------------|---------------------------------------------------|-------------------------------------|---------------------------|----------------------------------------|
