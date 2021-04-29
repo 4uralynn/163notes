@@ -78,6 +78,7 @@ hashtable::hashtable();
 	hshtable = new node*[SIZE]
 	for (int i = 0; i < SIZE; ++i) {
 		hshtable[i] = NULL;
+	}
 }
 
 ```
