@@ -72,14 +72,14 @@ In a **Hash Table**, function translates the key into an array index.
 
 ```c++
 
-hashtable::hashtable();
+hashtable::hashtable()
 {
-	node ** hshtable;
-	hshtable = new node*[SIZE]
+	node ** cell;
+	cell = new node*[SIZE]
 	for (int i = 0; i < SIZE; ++i) {
-		hshtable[i] = NULL;
+		cell[i] = NULL;
 	}
-}
+};
 
 ```
 
