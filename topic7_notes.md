@@ -46,7 +46,7 @@ ___
 ___
 **NOTES ON BIG *O* NOTATION:**
 
-+ Ignore lorder order *terms* in an algorithm's growth rate
++ Ignore lower order *terms* in an algorithm's growth rate
   - Example: ***O**(N<sup>3</sup> + 4* x *N<sup>2</sup> + 3* x *N)* is the same as ***O**(N<sup>3</sup>)*
 
 + Ignore a *constant* being multiplied to a high-order *term*
