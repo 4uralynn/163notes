@@ -34,7 +34,7 @@ ___
 ___
 
 
-***Evaluate*** *performance needs and 
+***Evaluate*** performance needs and 
 + consider how much memory an approach requires
 + evaluate strengths/weaknesses of algorithm 
   - Are certain cases not handled effectively?
@@ -47,10 +47,10 @@ ___
 **NOTES ON BIG *O* NOTATION:**
 
 + Ignore lorder order *terms* in an algorithm's growth rate
-  - Example: ***O**(N<sup>3</sup> + 4 x N<sup>2</sup> + 3 x N)* is the same as ***O**(N<sup>3</sup>)*
+  - Example: ***O**(N<sup>3</sup> + 4* x *N<sup>2</sup> + 3* x *N)* is the same as ***O**(N<sup>3</sup>)*
 
 + Ignore a *constant* being multiplied to a high-order *term*
-  - Example: ***O**(5 x N<sup>3</sup>)* is the same as ***O**(N<sup>3</sup>)*
+  - Example: ***O**(5* x *N<sup>3</sup>)* is the same as ***O**(N<sup>3</sup>)*
 + Not all experts agree with this approach
    - Experts don't *all* agree. May be situations where the constaints have significance.
 
