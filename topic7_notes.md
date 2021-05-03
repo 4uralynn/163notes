@@ -29,7 +29,7 @@ Topic 7: Measuring the Efficiency of Algorithms
 ___
 **NOTE:**
 
-*Always* keep in mind trade-offs between execution time and memory requirements. Big ***O** denotes execution time, and does not account for memory requirements or algorithm or abstraction limitations.
+*Always* keep in mind trade-offs between execution time and memory requirements. Big ***O*** denotes execution time, and does not account for memory requirements or algorithm or abstraction limitations.
 
 ___
 
@@ -47,10 +47,10 @@ ___
 **NOTES ON BIG *O* NOTATION:**
 
 + Ignore lorder order *terms* in an algorithm's growth rate
-  - Example: ***O**(N<sup>3</sup> + 4 $\times$ N<sup>2</sup> + 3 $\times$ N)* is the same as ***O**(N<sup>3</sup>)*
+  - Example: ***O**(N<sup>3</sup> + 4 x N<sup>2</sup> + 3 x N)* is the same as ***O**(N<sup>3</sup>)*
 
 + Ignore a *constant* being multiplied to a high-order *term*
-  - Example: ***O**(5 $\times$ N<sup>3</sup>)* is the same as ***O**(N<sup>3</sup>)*
+  - Example: ***O**(5 x N<sup>3</sup>)* is the same as ***O**(N<sup>3</sup>)*
 + Not all experts agree with this approach
    - Experts don't *all* agree. May be situations where the constaints have significance.
 
@@ -71,7 +71,7 @@ ___
 
 |    *Type*          |                         Add                       |                Remove               |        Search             |            Display (Retrieval)         |
 |--------------------|---------------------------------------------------|-------------------------------------|---------------------------|----------------------------------------|
-|  **Sorted Array**  | **Best case:** ***O**(1)* + Binary Search, - Shifting , - Memory **Wort case:** ***O**(N)* | **Best case: ** ***O**(log<sub>2</sub>N)* + Binary Search, - Shifting ***O**(N)* | + Binary Search ***O**(log<sub>2</sub>N)* | + Direct Access  ***O**(N)*| 
+|  **Sorted Array**  | **Best case:** ***O**(1)* + Binary Search, - Shifting , - Memory **Wort case:** ***O**(N)* | **Best case:** ***O**(log<sub>2</sub>N)* + Binary Search, - Shifting ***O**(N)* | + Binary Search ***O**(log<sub>2</sub>N)* | + Direct Access  ***O**(N)*| 
 | **Unsorted Array** | ***O**(1)* + Direct Access, + **NO** Shifting, - Memory   | **B:** ***O**(1)* - **Sequential** Search, - Shifting **W:** ***O**(N)* |  - **Sequential** Search **W:** ***O**(N)*  | - *Must* implement a sorting algorithm ***O**(N<sup>2</sup>)* |
 |     Sorted LLL     | **B:** ***O**(1)* - Sequential Search, + No Shifting, + Flex w/ Mem **W:** ***O**(N)* | **B:** ***O**(1)* - **Seq** Srch, + **NO** Shft, + Stop any time **W:** ***O**(N)* | - **Seq** Srch ***O**(N)* |               + Supported ***O**(N)* |
 |    Unsorted LLL    | ***O**(1)* + Dir Accss, + **NO** Shft, + Flexibility w/ Mem  | **B:** ***O**(1)*   - Seq Srch, + **NO** Shft, +Flex w/ mem  **W:** ***O**(N)* | **B:** ***O**(1)* - **Seq** Srch **W:** ***O**(N)* |	- *Must* implement a sorting algoritm ***O**(N<sup>2</sup>)*  |
