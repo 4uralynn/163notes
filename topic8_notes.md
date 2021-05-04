@@ -63,6 +63,7 @@ Part 1: Terminology
 
 ***Full*** **Binary Tree** is a binary tree *of height h* whose leaves are all at the level *h* and *whose nodes all have two children*. This is considerted to be **completely balanced.** *(above representation is a full binary tree)*
   - A *full* tree is also a *complete* tree.
+
 ***Complete*** **Binary Tree** is a binary tree that is a *full* tree *at a level below* its height (*h - 1*)
 
 #### Binary Trees
