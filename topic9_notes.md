@@ -184,7 +184,7 @@ Part 4: Tree Efficiency
 **Mathematical Relation/Function**
 + A full binary tree of height h should have 2 to the power of *h* nodes, minus 1, in that tree:
 
-<p style="text-align: center;">*2*<sup>*h*</sup>* - 1*</p>
+*2*<sup>*h*</sup>* - 1*
 
 **Height tells you the distance** of a node from the root.
 + Determines how efficiently it can be located.
