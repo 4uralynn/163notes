@@ -6,7 +6,7 @@ Iterative Sorting
 
 Insertion sort will begin at the start of array or list and sort the rest of the data according to that data and any other data that has been sorted.
 + doubly nested loop
-+ possibility of going through data *O*{sub}N{sup}2{\sup}{\sub} for arrays
++ possibility of going through data *O*[sub]N[sup]2[\sup][\sub] for arrays
 + with doubly linked list, data is only compared once, and don't need to shift data (move once)
 
 Selection sort will iterate and compare all data, and select the appropriate data to sort
