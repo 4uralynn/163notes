@@ -6,12 +6,12 @@ Iterative Sorting
 
 Insertion sort will begin at the start of array or list and sort the rest of the data according to that data and any other data that has been sorted.
 + doubly nested loop
-+ possibility of going through data *O*[sub]N[sup]2[\sup][\sub] for arrays
++ possibility of going through data *O*<sub>N<sup>2<\sup><\sub> for arrays
 + with doubly linked list, data is only compared once, and don't need to shift data (move once)
 
 Selection sort will iterate and compare all data, and select the appropriate data to sort
 * double nested loop
-+ Going through data *O*{sub}N{sup}2{\sup}{\sub} **all the time**
++ Going through data *O*<sub>N<sup>2<\sup><\sub> **all the time**
 + Only use if very costly to move data, and if doubly-linked list cannot be an alternative.
 
 Exchange or "Bubble" sort will swap or bubble up the appropriate selections as iterating through the list.
@@ -24,7 +24,7 @@ Shell Sort will use the insertion sort on intervals of data, rather than the ent
 Radix sort will sort data into 'buckets' according to value.
 + **zero** compares
 + Lots of copying per bucket
-+ *O*{sub} *keylength* (N) {\sub}
++ *O*<sub> *keylength* (N) <\sub>
 
 
 Recursive Sorting
